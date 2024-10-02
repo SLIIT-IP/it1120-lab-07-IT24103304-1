@@ -1,0 +1,18 @@
+public class IT24103304Lab7Q2C {
+	public static void main (String[] args) {
+		
+		//Declear the Variables
+		int i = 5,j = 0;
+		
+		//Main Loop
+		for (i = 5; i > 0; i--) {
+			
+			//Second Loop
+			for (j = 0; j < i; j++) {
+				System.out.print(i);
+			}
+		//Break a Line
+		System.out.print("\n");
+		}
+	}
+}
